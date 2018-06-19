@@ -1,0 +1,85 @@
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.green{
+    color: green;
+}
+
+.black{
+    color:black;
+}
+
+.redButton{
+    background-color: red;
+
+}
+
+.blueButton{
+    background-color: blue;
+}
+
+.greenButton{
+    background-color: green;
+}
+
+.blackButton{
+    background-color: black;
+}
+
+.blue:hover{
+
+}
+
+button {
+    width: 2rem;
+    height: 2rem;
+}
+
+button .hoverText {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+button:hover .hoverText {
+    visibility: visible;
+}
+
+#name{
+    width: 300px;
+    height: 20px;
+    border:1px solid black;
+    margin: 5px 1px 5px 600px;
+}
+
+.colorButton{
+    display: grid;
+    margin: 20px 1px 5px 600px;
+    grid-template-columns: 80px 80px 80px 80px;
+}
+
+.contactDetail{
+    margin: 20px 1px 5px 600px;
+
+}
+
+.userInfo{
+    margin: 20px 1px 5px 0px;
+}
+
+.error{
+    color:red;
+}
